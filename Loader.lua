@@ -1,3 +1,5 @@
+local coreGui = game:FindFirstChild("CoreGui") or game:GetService("CoreGui")
+coreGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 local JoseJoseExecutor = Instance.new("ScreenGui")
 local Loading = Instance.new("Frame")
 local Logo = Instance.new("ImageLabel")
@@ -39,8 +41,7 @@ local Execute = Instance.new("ImageButton")
 local Save = Instance.new("ImageButton")
 
 JoseJoseExecutor.Name = "JoseJose Executor"
-JoseJoseExecutor.Parent = game:WaitForChild("CoreGui")
-JoseJoseExecutor.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+JoseJoseExecutor.Parent = CoreGui
 JoseJoseExecutor.ZIndex = 100000
 
 Loading.Name = "Loading"
