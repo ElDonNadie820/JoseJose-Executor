@@ -1,4 +1,3 @@
-local coreGui = game:FindFirstChild("CoreGui") or game:GetService("CoreGui")
 local JoseJoseExecutor = Instance.new("ScreenGui")
 local Loading = Instance.new("Frame")
 local Logo = Instance.new("ImageLabel")
