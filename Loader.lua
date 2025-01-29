@@ -50,6 +50,7 @@ Loading.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Loading.BorderSizePixel = 0
 Loading.Position = UDim2.new(0.392120063, 0, 0.252964437, 0)
 Loading.Size = UDim2.new(0, 230, 0, 250)
+Loading.Visible = false
 
 Logo.Name = "Logo"
 Logo.Parent = Loading
@@ -188,7 +189,7 @@ Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Executor.BorderSizePixel = 0
 Executor.Position = UDim2.new(0.265478432, 0, 0.252964437, 0)
 Executor.Size = UDim2.new(0, 500, 0, 250)
-Executor.Visible = false
+Executor.Visible = true
 
 UICorner_10.Parent = Executor
 
