@@ -244,10 +244,10 @@ Source.Size = UDim2.new(0, 435, 0, 500)
 Source.Font = Enum.Font.Jura
 Source.MultiLine = true
 Source.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Source.PlaceholderText = "-- made by @veon2v50"
+Source.PlaceholderText = "-- made by @veon2v50 (need delta to work)"
 Source.Text = ""
 Source.TextColor3 = Color3.fromRGB(255, 255, 255)
-Source.TextSize = 14.000
+Source.TextSize = 13.000
 Source.TextXAlignment = Enum.TextXAlignment.Left
 Source.TextYAlignment = Enum.TextYAlignment.Top
 
