@@ -1,4 +1,3 @@
-game:GetService("CoreGui").ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 local JoseJoseExecutor = Instance.new("ScreenGui")
 local Loading = Instance.new("Frame")
 local Logo = Instance.new("ImageLabel")
