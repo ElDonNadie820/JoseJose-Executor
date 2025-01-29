@@ -1,3 +1,5 @@
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
 local JoseJoseExecutor = Instance.new("ScreenGui")
 local Loading = Instance.new("Frame")
 local Logo = Instance.new("ImageLabel")
@@ -39,8 +41,7 @@ local Execute = Instance.new("ImageButton")
 local Save = Instance.new("ImageButton")
 
 JoseJoseExecutor.Name = "JoseJose Executor"
-JoseJoseExecutor.Parent = CoreGui
-JoseJoseExecutor.ZIndex = 100000
+JoseJoseExecutor.Parent = playerGui
 
 Loading.Name = "Loading"
 Loading.Parent = JoseJoseExecutor
